@@ -1,0 +1,6 @@
+itemGroup.CompactWaterTurbines=Compact WaterTurbines
+
+tile.CompactWaterTurbines.lvwaterturbine.name=LV Water Turbine
+tile.CompactWaterTurbines.mvwaterturbine.name=MV Water Turbine
+tile.CompactWaterTurbines.hvwaterturbine.name=HV Water Turbine
+tile.CompactWaterTurbines.evwaterturbine.name=EV Water Turbine

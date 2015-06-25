@@ -1,0 +1,21 @@
+[
+{
+  "modid": "CompactWaterTurbines",
+  "name": "CompactWaterTurbines",
+  "description": "",
+  "version": "1.1.0",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Gigabit101"
+    
+  ],
+  "credits": "Nexans (original author)",
+  "logoFile": "/",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
