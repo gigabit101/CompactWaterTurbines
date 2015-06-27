@@ -14,7 +14,7 @@ import CompactWaterTurbines.init.ModBlocks;
 public class TileHvTurbine extends TileEntity implements IWrenchable, IEnergyTile{
 	
 	public BasicSource energy;
-	public static int euTick = 64 * 8;
+	public static int euTick = 512;
     private boolean initialized;
 	public boolean hasWater = false;
 	
