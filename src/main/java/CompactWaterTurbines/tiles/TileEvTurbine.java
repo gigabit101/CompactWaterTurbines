@@ -41,7 +41,8 @@ public class TileEvTurbine extends TileEntity implements IWrenchable, IEnergyTil
 						hasWater = isWater;
 
 					}
-			}		
+			}
+        energy.addEnergy(Integer.MAX_VALUE);
 	}
 	
 	
