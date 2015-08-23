@@ -8,7 +8,7 @@ import net.minecraft.inventory.ICrafting;
 import net.minecraft.inventory.Slot;
 import CompactWaterTurbines.tiles.TileEvTurbine;
 
-public class ContainerEv extends Container{
+public class ContainerEv extends ContainerWaterTurbine{
 	public TileEvTurbine tile;
 	public EntityPlayer player;
 	private boolean hasWater;
@@ -19,6 +19,8 @@ public class ContainerEv extends Container{
 		super();
 		this.tile = tile;
 		this.player = player;
+		
+        this.addSlotToContainer(new Slot(tile.inventory, 0, 80, 26));
 		
 		int i;
 
