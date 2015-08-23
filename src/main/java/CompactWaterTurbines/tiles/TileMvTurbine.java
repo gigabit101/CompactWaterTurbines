@@ -57,7 +57,6 @@ public class TileMvTurbine extends TileEntity implements IWrenchable, IEnergyTil
 			{
 				currentBuckets = currentBuckets +1;
 				inventory.setInventorySlotContents(0, new ItemStack(Items.bucket));
-				System.out.print(currentBuckets);
 			}
 			if (currentBuckets == neededbuckets)
 			{
